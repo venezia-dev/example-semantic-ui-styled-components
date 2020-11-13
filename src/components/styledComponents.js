@@ -3,10 +3,13 @@ import { Button, Segment } from 'semantic-ui-react'
 
 export const StyledButton = styled(Button)({
     color: 'red!important',
-    backgroundColor: 'green!important'
+    backgroundColor: 'green!important',
+    "&:hover": {
+        backgroundColor: "blue!important",
+    },
 });
 
 export const StyledSegment = styled(Segment)({
     color: '#29abe0!important',
-    backgroundColor: '#7a4370!important'
+    backgroundColor: '#7a4370!important',
 });
