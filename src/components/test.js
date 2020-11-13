@@ -1,21 +1,12 @@
 import styled from "styled-components";
 import { Button, Segment } from 'semantic-ui-react'
+import { StyledButton, StyledSegment } from './styledComponents';
 
 const Title = styled.h1`
   font-size: 1.5em;
   text-align: center;
   color: palevioletred;
 `;
-
-const StyledButton = styled(Button)({
-    color: 'red!important',
-    backgroundColor: 'green!important'
-});
-
-const StyledSegment = styled(Segment)({
-    color: '#29abe0!important',
-    backgroundColor: '#7a4370!important'
-});
 
 const Test = () => {
   return (
